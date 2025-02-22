@@ -1,0 +1,12 @@
+specVersion: "v1beta"
+serviceId: "ridewise"
+location: "asia-east1"
+schema:
+  source: "./schema"
+  datasource:
+    postgresql:
+      database: "rohit123"
+      cloudSql:
+        instanceId: "ridewise-cloud"
+      # schemaValidation: "COMPATIBLE"
+connectorDirs: ["./connector"]
